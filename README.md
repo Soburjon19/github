@@ -139,20 +139,20 @@ However, if there are a large number of requests or if the heroku account being 
 
 9. Scroll down to the Domains section to find the URL you will use in place of `activity-graph.herokuapp.com`
 
-### Step-by-step instructions for deploying to Heroku (from CLI)
+### Step-by-step instructions for deploying to AWS Amplify (from CLI)
 
-1. Make a [Heroku](https://signup.heroku.com/) account.
-2. Install the Heroku CLI
-   - Mac: `brew install heroku/brew/heroku`
-   - Ubuntu: `sudo snap install heroku --classic`
-   - Windows: [Find the Windows installer here](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
-3. Clone the repository: `git clone https://github.com/Ashutosh00710/github-readme-activity-graph.git`
-4. Navigate in to the directory: `cd github-readme-activity-graph`
-5. Login to Heroku: `heroku login`
-6. Create Heroku app: `heroku create` and copy the URL you are given as output.
-7. Deploy app to heroku: `git push heroku main`
+1. Make a [AWS Amplify](https://signup.aws.amazon.com/) account.
+2. Install the AWS Amplify CLI
+   - Mac: `brew install Aws/brew/aws`
+   - Ubuntu: `sudo snap install aws --classic`
+   - Windows: [Find the Windows installer here](https://devcenter.aws.amazon.com/articles/aws-cli#download-and-install)
+3. Clone the repository: `git clone https://github.com/Soburjon19/github`
+4. Navigate in to the directory: `cd github`
+5. Login to Heroku: `AWS Amplify login`
+6. Create Heroku app: `AWS Amplify create` and copy the URL you are given as output.
+7. Deploy app to AWS: `git push AWS Amplify master`
 8. [Generate personal access token](https://github.com/settings/tokens). Copy your token.
-9. Set token as heroku config var: `heroku config:set TOKEN=<your token goes here>`
+9. Set token as heroku config var: `AWS Amplify config:set TOKEN=<your token goes here>`
 
 Now just add the following to your profile readme and you're good to go.
 
@@ -174,17 +174,17 @@ Now just add the following to your profile readme and you're good to go.
 
 3. On the page that comes up, choose language as `Node.js` and then click `Import from GitHub` Button
 
-![Replit](./asset/replit1.png)
+<!-- ![Replit](./asset/replit1.png) -->
 
 4. Visit the "**Settings**" tab and click "**Reveal Config Vars**"
 5. Visit [this link](https://github.com/settings/tokens/new?description=GitHub%20Readme%20Activity%20Graph) to create a new Personal Access Token
 6. Scroll to the bottom and click "**Generate token**"
-4. Wait clone done and add `Secrets` with your `Github token`
+7. Wait clone done and add `Secrets` with your `Github token`
 
-![Secrets](./asset/replit2.png)
+<!-- ![Secrets](./asset/replit2.png) -->
 
-5. Click the green `RUN` button on top, the console will run and at last the url will shows on the right
-6. Now just add the following to your profile readme and you're good to go
+8. Click the green `RUN` button on top, the console will run and at last the url will shows on the right
+9. Now just add the following to your profile readme and you're good to go
 
 ```
 ![Github Activity Graph](<url from step 5>/graph?username=<username>)

@@ -27,8 +27,8 @@ A dynamically generated activity graph to show your GitHub activities of last 31
 - [Deploy on your own Replit instance](#deploy-on-your-own-replit-instance)
   - [Step-by-step instructions for deploying to Replit **(from UI)**](#step-by-step-instructions-for-deploying-to-replit-from-ui)
 - [Contributing](#contributing)
-- [Core Team 💻](#core-team-)
-- [Contributors ✨](#contributors-)
+<!-- - [Core Team 💻](#core-team-) -->
+<!-- - [Contributors ✨](#contributors-) -->
 - [Resources Used to build this project](#resources-used-to-build-this-project)
   - [Made with ❤ and TypeScript <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" width="25">](#made-with--and-typescript-)
 

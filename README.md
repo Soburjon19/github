@@ -123,8 +123,8 @@ However, if there are a large number of requests or if the Aws Amplify account b
 2. Click the Deploy button below
 
 <p align="center">
-    <a href="https://https://aws.amazon.com/deploy?template=https://github.com/Soburjon19/github/master">
-        <img src="https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26nc2%3Dh_ct%26src%3Dheader-signin%26state%3DhashArgsFromTB_ap-northeast-1_9b43b206f800906e&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&forceMobileApp=0&code_challenge=zn0Gx3u_Cj0Qeq_nVIfslJe-bw6kWUdo6BY1skQeDeo&code_challenge_method=SHA-256" title="Deploy to Aws Amplify" alt="Deploy"/>
+    <a href="https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26nc2%3Dh_ct%26src%3Dheader-signin%26state%3DhashArgsFromTB_ap-northeast-1_9b43b206f800906e&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&forceMobileApp=0&code_challenge=zn0Gx3u_Cj0Qeq_nVIfslJe-bw6kWUdo6BY1skQeDeo&code_challenge_method=SHA-256">
+        <img width="100px;" hight="10px" src="https://velog.velcdn.com/images/minj_shalom/post/2283659c-430d-4a25-92a8-7ec3494ed48f/image.jpeg" title="Deploy to Heroku" alt="Deploy"/>
     </a>
 </p>
 

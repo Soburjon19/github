@@ -39,17 +39,17 @@ Just paste the following URL in your profile readme and you are good to go.
 **Pass your `username` in the URL**
 
 ```md
-[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=Ashutosh00710)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![soburjon's github activity graph](https://master.d1wlzgoxcnlxwr.amplifyapp.com/graph?username=Soburjon19)](https://github.com/Soburjon19/github)
 ```
 
 ### [Attention ⚠](#Deploy-on-your-own-heroku-instance)
 
 ## Use themes
 
-_`username=ashutosh00710&theme=theme_name`_
+_`username=Soburjon19&theme=theme_name`_
 
 ```md
-[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=Ashutosh00710&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Soburjon's github activity graph](https://master.d1wlzgoxcnlxwr.amplifyapp.com/graph?username=Soburjon19&theme=dracula)](https://github.com/Soburjon19/github)
 ```
 
 [Manual Customization](#customization) is also available
@@ -69,7 +69,7 @@ _`username=ashutosh00710&theme=theme_name`_
 |       **tokyo-night**      |<img src="./asset/tokyo-night.png" height=250 alt="graph"/>  |
 |       **high-contrast**    |<img src="./asset/high-contrast.png" height=250 alt="graph"/>|
 
-For more themes click [here](https://github.com/Ashutosh00710/github-readme-activity-graph/blob/main/THEMES.md)
+For more themes click [here](https://github.com/Soburjon19/github/blob/main/THEMES.md)
 
 ## Customization
 
@@ -99,13 +99,13 @@ Example:
 **`custom_title=This%20is%20a%20title`**
 
 ```md
-[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=ashutosh00710&custom_title=This%20is%20a%20title&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Soburjon's github activity graph](https://master.d1wlzgoxcnlxwr.amplifyapp.com/graph?username=Soburjon19&custom_title=This%20is%20a%20title&hide_border=true)](https://github.com/Soburjon19/github)
 ```
 
 **Example:**
 
 ```md
-[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=ashutosh00710&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Soburjon's github activity graph](https://master.d1wlzgoxcnlxwr.amplifyapp.com/graph?username=Soburjon19&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 ```
 
 ## Deploy on your own Heroku instance
@@ -168,8 +168,8 @@ Now just add the following to your profile readme and you're good to go.
 2. Click the Deploy button below
 
 <p align="center">
-<a href="https://repl.it/github/Ashutosh00710/github-readme-activity-graph">
-  <img alt="Run on Repl.it" src="https://repl.it/badge/github/Ashutosh00710/github-readme-activity-graph" style="height: 40px; width: 190px;" />
+<a href="https://repl.it/github/Soburjon19/github">
+  <img alt="Run on Repl.it" src="https://repl.it/badge/github/Soburjon19/github" style="height: 40px; width: 190px;" />
 </a></p>
 
 3. On the page that comes up, choose language as `Node.js` and then click `Import from GitHub` Button
@@ -192,7 +192,7 @@ Now just add the following to your profile readme and you're good to go.
 
 ## Contributing
 
-Please read through our [contributing guidelines](https://github.com/Ashutosh00710/github-readme-activity-graph/blob/main/CONTRIBUTING.md). Directions are included for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/Soburjon19/github/blob/main/CONTRIBUTING.md). Directions are included for opening issues, coding standards, and notes on development.
 
 ## Core Team 💻
 

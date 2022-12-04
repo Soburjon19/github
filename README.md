@@ -192,8 +192,8 @@ Now just add the following to your profile readme and you're good to go.
 
 ## Contributing
 
-Please read through our [contributing guidelines](https://github.com/Soburjon19/github/blob/main/CONTRIBUTING.md). Directions are included for opening issues, coding standards, and notes on development.
-
+Please read through our [contributing guidelines](https://github.com/Soburjon19/github/blob/master/CONTRIBUTING.md). Directions are included for opening issues, coding standards, and notes on development.
+<!-- 
 ## Core Team 💻
 
 <table>
@@ -225,6 +225,7 @@ Please read through our [contributing guidelines](https://github.com/Soburjon19/
     </td>
     </tr>
 </table>
+ -->
 
 <!-- 
 

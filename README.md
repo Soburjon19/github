@@ -42,7 +42,7 @@ Just paste the following URL in your profile readme and you are good to go.
 [![soburjon's github activity graph](https://master.d1wlzgoxcnlxwr.amplifyapp.com/graph?username=Soburjon19)](https://github.com/Soburjon19/github)
 ```
 
-### [Attention ⚠](#Deploy-on-your-own-heroku-instance)
+### [Attention ⚠](#Deploy-on-your-own-aws-amazon-instance)
 
 ## Use themes
 
@@ -69,7 +69,7 @@ _`username=Soburjon19&theme=theme_name`_
 |       **tokyo-night**      |<img src="./asset/tokyo-night.png" height=250 alt="graph"/>  |
 |       **high-contrast**    |<img src="./asset/high-contrast.png" height=250 alt="graph"/>|
 
-For more themes click [here](https://github.com/Soburjon19/github/blob/main/THEMES.md)
+For more themes click [here](https://github.com/Soburjon19/github/blob/master/THEMES.md)
 
 ## Customization
 
@@ -105,26 +105,26 @@ Example:
 **Example:**
 
 ```md
-[![Soburjon's github activity graph](https://master.d1wlzgoxcnlxwr.amplifyapp.com/graph?username=Soburjon19&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Soburjon's github activity graph](https://master.d1wlzgoxcnlxwr.amplifyapp.com/graph?username=Soburjon19&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true)](https://github.com/Soburjon19/github)
 ```
 
 ## Deploy on your own Heroku instance
 
-The GitHub API only allows limited requests per hour, my activity-graph.herokuapp.com/graph could possibly hit the rate limiter. If you host it on your own Heroku server, then you don't have to worry about anything.
+The GitHub API only allows limited requests per hour, my https://master.d1wlzgoxcnlxwr.amplifyapp.com/graph could possibly hit the rate limiter. If you host it on your own Heroku server, then you don't have to worry about anything.
 
-You may use the server used by this project at <https://activity-graph.herokuapp.com> and pass in your username to access your graph.
-E.g. `https://activity-graph.herokuapp.com/graph?username=<your_username>`
+You may use the server used by this project at <https://master.d1wlzgoxcnlxwr.amplifyapp.com/> and pass in your username to access your graph.
+E.g. `https://master.d1wlzgoxcnlxwr.amplifyapp.com/graph?username=<your_username>`
 
-However, if there are a large number of requests or if the heroku account being used for the project runs out of dyno hours your graph will not load.
+However, if there are a large number of requests or if the Aws Amplify account being used for the project runs out of dyno hours your graph will not load.
 
-### Step-by-step instructions for deploying to Heroku (from UI)
+### Step-by-step instructions for deploying to Aws Amplify (from UI)
 
-1. Sign in to Heroku or create a new account at <https://heroku.com>
+1. Sign in to Heroku or create a new account at <https://aws.amazon.com/>
 2. Click the Deploy button below
 
 <p align="center">
-    <a href="https://heroku.com/deploy?template=https://github.com/Ashutosh00710/github-readme-activity-graph/main">
-        <img src="https://www.herokucdn.com/deploy/button.svg" title="Deploy to Heroku" alt="Deploy"/>
+    <a href="https://https://aws.amazon.com/deploy?template=https://github.com/Soburjon19/github/master">
+        <img src="https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26nc2%3Dh_ct%26src%3Dheader-signin%26state%3DhashArgsFromTB_ap-northeast-1_9b43b206f800906e&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&forceMobileApp=0&code_challenge=zn0Gx3u_Cj0Qeq_nVIfslJe-bw6kWUdo6BY1skQeDeo&code_challenge_method=SHA-256" title="Deploy to Aws Amplify" alt="Deploy"/>
     </a>
 </p>
 
@@ -137,7 +137,7 @@ However, if there are a large number of requests or if the heroku account being 
 
 ![TOKEN](./asset/token-config.png)
 
-9. Scroll down to the Domains section to find the URL you will use in place of `activity-graph.herokuapp.com`
+9. Scroll down to the Domains section to find the URL you will use in place of `https://master.d1wlzgoxcnlxwr.amplifyapp.com/`
 
 ### Step-by-step instructions for deploying to AWS Amplify (from CLI)
 
@@ -146,7 +146,7 @@ However, if there are a large number of requests or if the heroku account being 
    - Mac: [Find the Mac installer here](https://d2td7dqidlhjx7.cloudfront.net/prod/global/osx/WorkSpaces.pkg)
    - Ubuntu: `sudo snap install aws --classic`
    - Windows: [Find the Windows installer here](https://d2td7dqidlhjx7.cloudfront.net/prod/global/windows/Amazon+WorkSpaces.msi/)
-3. Clone the repository: `git clone https://github.com/Soburjon19/github`
+3. Clone the repository: `git clone https://github.com/Soburjon19/github.git`
 4. Navigate in to the directory: `cd github`
 5. Login to Heroku: `AWS Amplify login`
 6. Create Heroku app: `AWS Amplify create` and copy the URL you are given as output.

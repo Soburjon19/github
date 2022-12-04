@@ -21,9 +21,9 @@ A dynamically generated activity graph to show your GitHub activities of last 31
 - [Available Themes](#available-themes)
 - [Customization](#customization)
   - [Common Options](#common-options)
-- [Deploy on your own Heroku instance](#deploy-on-your-own-heroku-instance)
-  - [Step-by-step instructions for deploying to Heroku **(from UI)**](#step-by-step-instructions-for-deploying-to-heroku-from-ui)
-  - [Step-by-step instructions for deploying to Heroku **(from CLI)**](#step-by-step-instructions-for-deploying-to-heroku-from-cli)
+- [Deploy on your own Aws instance](#deploy-on-your-own-heroku-instance)
+  - [Step-by-step instructions for deploying to Aws **(from UI)**](#step-by-step-instructions-for-deploying-to-heroku-from-ui)
+  - [Step-by-step instructions for deploying to Aws **(from CLI)**](#step-by-step-instructions-for-deploying-to-heroku-from-cli)
 - [Deploy on your own Replit instance](#deploy-on-your-own-replit-instance)
   - [Step-by-step instructions for deploying to Replit **(from UI)**](#step-by-step-instructions-for-deploying-to-replit-from-ui)
 - [Contributing](#contributing)
@@ -148,8 +148,8 @@ However, if there are a large number of requests or if the Aws Amplify account b
    - Windows: [Find the Windows installer here](https://d2td7dqidlhjx7.cloudfront.net/prod/global/windows/Amazon+WorkSpaces.msi/)
 3. Clone the repository: `git clone https://github.com/Soburjon19/github.git`
 4. Navigate in to the directory: `cd github`
-5. Login to Heroku: `AWS Amplify login`
-6. Create Heroku app: `AWS Amplify create` and copy the URL you are given as output.
+5. Login to Aws: `AWS Amplify login`
+6. Create Aws app: `AWS Amplify create` and copy the URL you are given as output.
 7. Deploy app to AWS: `git push AWS Amplify master`
 8. [Generate personal access token](https://github.com/settings/tokens). Copy your token.
 9. Set token as heroku config var: `AWS Amplify config:set TOKEN=<your token goes here>`

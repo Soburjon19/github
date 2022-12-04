@@ -143,9 +143,9 @@ However, if there are a large number of requests or if the heroku account being 
 
 1. Make a [AWS Amplify](https://signup.aws.amazon.com/) account.
 2. Install the AWS Amplify CLI
-   - Mac: [Find the Mac installer here]([https://docs.amplify.aws/cli/start/install/](https://d2td7dqidlhjx7.cloudfront.net/prod/global/osx/WorkSpaces.pkg))
+   - Mac: [Find the Mac installer here](https://d2td7dqidlhjx7.cloudfront.net/prod/global/osx/WorkSpaces.pkg)
    - Ubuntu: `sudo snap install aws --classic`
-   - Windows: [Find the Windows installer here](https://docs.amplify.aws/cli/start/install/)
+   - Windows: [Find the Windows installer here](https://d2td7dqidlhjx7.cloudfront.net/prod/global/windows/Amazon+WorkSpaces.msi/)
 3. Clone the repository: `git clone https://github.com/Soburjon19/github`
 4. Navigate in to the directory: `cd github`
 5. Login to Heroku: `AWS Amplify login`
